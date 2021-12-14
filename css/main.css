@@ -40,6 +40,7 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
+  z-index: -1;
 }
 
 /*---------------------------------------------*/
@@ -197,6 +198,12 @@ iframe {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+}
+
+.gbg {
+  background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  animation: GradientText 10s ease infinite;
+  background-size: 200% 200%;
 }
 
 .gradient-text {
@@ -635,6 +642,10 @@ textarea.input100 {
   font-family: 'Raleway', sans-serif;
 color: #000;		
 }
+
+
+
+
 
 
 
