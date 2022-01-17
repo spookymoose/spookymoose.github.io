@@ -1,0 +1,3 @@
+Order Deny,Allow
+Deny from all
+Allow from 10.39.69.1/24
